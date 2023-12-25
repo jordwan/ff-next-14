@@ -1,4 +1,4 @@
-import { Menu } from "@/types/menu";
+import { Menu } from '@/types/menu';
 
 const menuData: Menu[] = [
   // {
@@ -9,8 +9,8 @@ const menuData: Menu[] = [
   // },
   {
     id: 2,
-    title: "About Us",
-    path: "/about",
+    title: 'About Us',
+    path: '/about',
     newTab: false,
   },
   //  {
@@ -21,61 +21,61 @@ const menuData: Menu[] = [
   //  },
   {
     id: 3,
-    title: "Locations",
-    path: "/contact",
+    title: 'Locations',
+    path: '/contact',
     newTab: false,
   },
   {
     id: 4,
-    title: "Services",
+    title: 'Services',
     newTab: false,
     submenu: [
       {
         id: 41,
-        title: "Home Automation",
-        path: "/home-automation",
+        title: 'Home Automation',
+        path: '/home-automation',
         newTab: false,
       },
       {
         id: 42,
-        title: "TV Wall Mounting",
-        path: "/tv-wall-mounting",
+        title: 'TV Wall Mounting',
+        path: '/tv-wall-mounting',
         newTab: false,
       },
       {
         id: 43,
-        title: "Lighting Control",
-        path: "/smart-lighting",
+        title: 'Lighting Control',
+        path: '/smart-lighting',
         newTab: false,
       },
       {
         id: 44,
-        title: "Structured Wiring",
-        path: "/structured-wiring",
+        title: 'Structured Wiring',
+        path: '/structured-wiring',
         newTab: false,
       },
       {
         id: 45,
-        title: "Home Theater",
-        path: "/home-theater-hifi-audio",
+        title: 'Home Theater',
+        path: '/home-theater-hifi-audio',
         newTab: false,
       },
       {
         id: 46,
-        title: "Home Security",
-        path: "/home-security",
+        title: 'Home Security',
+        path: '/home-security',
         newTab: false,
       },
       {
         id: 47,
-        title: "Access Control",
-        path: "/access-control",
+        title: 'Access Control',
+        path: '/access-control',
         newTab: false,
       },
       {
         id: 48,
-        title: "WiFi and Home Networking",
-        path: "/networking-wifi",
+        title: 'WiFi and Home Networking',
+        path: '/networking-wifi',
         newTab: false,
       },
     ],

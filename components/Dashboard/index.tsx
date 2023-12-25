@@ -1,4 +1,4 @@
-const Hero = () => {
+const Dashboard = () => {
   return (
     <>
       <section
@@ -19,7 +19,7 @@ const Hero = () => {
                 <div className="p-10"></div>
                 <div>
                   <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                    FootyFiEND.com Next Generation
+                    FootyFiEND.com Next Generation Dashboard
                   </p>
                 </div>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0"></div>
@@ -35,4 +35,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Dashboard;
