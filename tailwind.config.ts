@@ -15,9 +15,10 @@ const config: Config = {
     colors: {
       current: 'currentColor',
       transparent: 'transparent',
-      white: '#FFFFFF',
+      white: '#ffffff',
       black: '#090E34',
       dark: '#000000',
+      redbg: '#ff0000',
       gray: '#333333',
       red: '#ff0000',
       primary: '#dcff00',

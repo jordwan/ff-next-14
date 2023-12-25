@@ -149,13 +149,13 @@ const Header = () => {
                   className="hidden px-7 py-3 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"
                 >
                   {' '}
-                  Login
+                  Login / Signup
                 </Link>
                 <Link
                   href="/contact"
                   className="ease-in-up hidden rounded-md bg-primary px-8 py-3 text-base font-bold text-black transition duration-300 hover:bg-opacity-90 hover:shadow-signUp md:block md:px-9 lg:px-6 xl:px-9"
                 >
-                  Contact Us
+                  Create Post
                 </Link>
                 <div>
                   <ThemeToggler />
@@ -163,6 +163,7 @@ const Header = () => {
               </div>
             </div>
           </div>
+          <hr />
         </div>
       </header>
     </>
