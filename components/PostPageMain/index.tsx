@@ -1,8 +1,8 @@
-const Hero = () => {
+const PostPageMain = () => {
   return (
     <>
       <section
-        id="hero"
+        id="post-page-main"
         className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px] h-screen"
       >
         <div className="container">
@@ -19,8 +19,9 @@ const Hero = () => {
                 <div className="p-10"></div>
                 <div>
                   <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                    FootyFiEND.com Next Generation HERO Home
+                    HI
                   </p>
+                  <div>This is the Post Page </div>
                 </div>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0"></div>
               </div>
@@ -35,4 +36,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default PostPageMain;
