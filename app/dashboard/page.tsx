@@ -1,9 +1,14 @@
 import Dashboard from '@/components/Dashboard';
 
-export default function Home() {
+const dashboardPage = () => {
   return (
     <>
-      <Dashboard />
+      <div className="flex items-center justify-center h-screen">
+        <div>This is the Dahsboard</div>
+        <Dashboard />
+      </div>
     </>
   );
-}
+};
+
+export default dashboardPage;
